@@ -37,14 +37,14 @@ This project uses a CNN model trained on grayscale face images to classify emoti
 -Corresponding emotion labels
 
 # Project Structure
-📂 Face-Emotion-Detection/
-├── 📄 model.py           # CNN architecture
-├── 📄 train.py           # Model training script
-├── 📄 test.py            # Evaluation and accuracy
-├── 📄 real_time.py       # Live webcam emotion detection
-├── 📁 data/              # Dataset directory
-├── 📁 saved_model/       # Trained model
-├── 📄 requirements.txt   # Required Python libraries
+ Face-Emotion-Detection/
+├──  model.py           # CNN architecture
+├──  train.py           # Model training script
+├──  test.py            # Evaluation and accuracy
+├──  real_time.py       # Live webcam emotion detection
+├──  data/              # Dataset directory
+├──  saved_model/       # Trained model
+├──  requirements.txt   # Required Python libraries
 
 # Model Architecture
 Conv2D → ReLU → MaxPooling  
